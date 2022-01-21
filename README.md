@@ -55,6 +55,8 @@ El proyecto consta de las clases: SpotifyCrawler.java, SparkLib.java, NewPlaylis
 
 A través de la API Web de Spotify [2], las aplicaciones externas recuperan contenido de Spotify, como datos de álbumes y listas de reproducción. En primer lugar, para poder realizar peticiones a esta API que involucren datos personales de un usuario debemos crear una aplicación y registrarla a través de Spotify for Developers [3].
 
+![authorization](https://user-images.githubusercontent.com/98184890/150589024-b2cb4ed6-b69b-4c98-9235-5238a7f0ec3b.png)
+
 
 Esta aplicación nos proporcionará los datos necesarios para el proceso de autorización y poder actuar como cliente de Spotify, el Client ID y el Client Secret. Esto nos permitirá obtener un token de acceso para poder realizar peticiones posteriormente. Todo esto se realiza desde la función **clientCredentials_Sync()**:
 
